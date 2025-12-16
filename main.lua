@@ -2,12 +2,12 @@
 -- 4 Tabs: Info, Weapon (Aimbot), Player (Fly + ESP + Noclip), Misc
 -- Key system with save: hello
 -- ESP uses MultipleOptions dropdown
--- Theme: Amethystı
+-- Theme: Amethystıawdawdawdawdawda
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "War Tycoon",
+   Name = "War Tycoonw",
    LoadingTitle = "War Tycoon",
    LoadingSubtitle = "by Seny3103",
    Theme = "Amethyst",
@@ -301,3 +301,4 @@ PlayerTab:CreateToggle({Name="Noclip",CurrentValue=false,Callback=function(v) no
 
 -- MISC
 MiscTab:CreateParagraph({Title="Information",Content="New features will be added soon."})
+
